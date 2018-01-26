@@ -1,8 +1,8 @@
 "use strict";
 
-angular.module("DoctorsAndPatients").controller("DoctorCtrl", function ($scope, DoctorFactory){
-  DoctorFactory.getDoctors()
+angular.module("DoctorsAndPatients").controller("DoctorsCtrl", function ($scope, DoctorsFactory){
+  DoctorsFactory.getDoctors()
     .then((doctorData) => {
-      $scope.doctorList = doctorData.data.doctors;
+      $scope.doctorList = doctorData.data;
     });
 });
