@@ -1,5 +1,5 @@
 ## About the Assignment
-This is an assignment for NSS to practice routing with AngularJS.
+This is an assignment for NSS to practice routing with AngularJS. The doctor and patient data is [stored in firebase](https://console.firebase.google.com/project/doctors-and-patients-952f1/database/doctors-and-patients-952f1/data).
 
 
 ## Requirements
