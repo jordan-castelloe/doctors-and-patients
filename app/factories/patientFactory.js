@@ -1,8 +1,9 @@
 angular.module("DoctorsAndPatients").factory("PatientFactory", function ($q, $http) {
   let getPatients= (doctorID) => {
+    console.log("this should be the doctor name in the promise", doctorID);
     return $q((resolve, reject) => {
       $http
-        .get(`https://doctors-and-patients-952f1.firebaseio.com/patients.json?orderBy="doctor_id"&equalTo=${doctorID}`)
+        .get(`https://doctors-and-patients-952f1.firebaseio.com/patients.json?orderBy="doctor_id"&equalTo="${doctorID}"`)
         .then((patientData) => {
           resolve(patientData);
         })
