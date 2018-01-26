@@ -6,5 +6,9 @@ angular.module("DoctorsAndPatients", ['ngRoute'])
       .when("/", {
         templateUrl: "app/partials/doctors.html",
         controller: "DoctorsCtrl"
+      })
+      .when("/:doctorId", {
+        templateUrl: "app/partials/patients.html",
+        controller: "PatientCtrl"
       });
   });

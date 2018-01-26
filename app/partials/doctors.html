@@ -1,7 +1,7 @@
 
   <ul ng-repeat = "doctor in doctorList">
     <li>
-        <h4>Name: {{doctor.first_name}} {{doctor.last_name}}</h4>
+        <a a href="#!/{{doctor.last_name.toLowerCase()}}">Name: {{doctor.first_name}} {{doctor.last_name}}</a>
         <p>Speciality: {{doctor.speciality}}</p>
     </li>
   </ul>
