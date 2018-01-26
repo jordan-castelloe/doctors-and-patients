@@ -1,0 +1,56 @@
+{
+  "doctors": {
+    "killigrew": {
+      "first_name": "Johan",
+      "last_name": "Killigrew",
+      "speciality": "Pediatrics"
+    },
+    "illman": {
+      "first_name": "Frank",
+      "last_name": "Illman",
+      "speciality": "Geriatrics"
+    },
+    "pain": {
+      "first_name": "Peter",
+      "last_name": "Pain",
+      "speciality": "General Practice"
+    },
+    "sickerton": {
+      "first_name": "Morgan",
+      "last_name": "Sickerton",
+      "speciality": "General Practice"
+    }
+  },
+  "patients": {
+    "svenson": {
+      "first_name": "Margot",
+      "last_name": "Svenson",
+      "ailment": "Arthritis",
+      "doctor_id": "killigrew"
+    },
+    "johnson": {
+      "first_name": "Sally",
+      "last_name": "Johnson",
+      "ailment": "Broken arm",
+      "doctor_id": "illman"
+    },
+    "douglas": {
+      "first_name": "Sherry",
+      "last_name": "Douglas",
+      "ailment": "Flu",
+      "doctor_id": "pain"
+    },
+    "callow": {
+      "first_name": "Lucy",
+      "last_name": "Callow",
+      "ailment": "The Plague",
+      "doctor_id": "sickerton"
+    },
+    "murphy": {
+      "first_name": "Benedict",
+      "last_name": "Murphy",
+      "ailment": "Hypochondria",
+      "doctor_id": "pain"
+    }
+  }
+}
