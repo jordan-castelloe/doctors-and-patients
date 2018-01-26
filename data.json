@@ -46,11 +46,29 @@
       "ailment": "The Plague",
       "doctor_id": "sickerton"
     },
-    "murphy": {
-      "first_name": "Benedict",
-      "last_name": "Murphy",
-      "ailment": "Hypochondria",
+    "bunker": {
+      "first_name": "Honky",
+      "last_name": "Bunker",
+      "ailment": "A bad cough",
+      "doctor_id": "illman"
+    },
+    "druggo": {
+      "first_name": "Silas",
+      "last_name": "Druggo",
+      "ailment": "Back pain",
+      "doctor_id": "killigrew"
+    },
+    "furman": {
+      "first_name": "Betsy",
+      "last_name": "Furman",
+      "ailment": "Tuberculosis",
       "doctor_id": "pain"
+    },
+    "brack": {
+      "first_name": "Frankie",
+      "last_name": "Brack",
+      "ailment": "Measles",
+      "doctor_id": "sickerton"
     }
   }
 }
